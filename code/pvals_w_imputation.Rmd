@@ -163,13 +163,13 @@ xm_compete_pvals <- function(path){
 The commands below apply the imputation functions to the mass spec data.
 
 ```{r apply to July 13 Aug 11 Data}
-Jul13_Aug11_XM_DMSO_Sept13 <- xm_dmso_pvals("Sept5_Data/Yu-Shiuan_TMT6_13July20_11Aug20_RTS-3hr_2_Nested.xlsx")
-Jul13_Aug11_XM_GZ_Sept13 <- xm_compete_pvals("Sept5_Data/Yu-Shiuan_TMT6_13July20_11Aug20_RTS-3hr_2_Nested.xlsx")
+Jul13_Aug11_XM_DMSO_Sept13 <- xm_dmso_pvals("../data/Yu-Shiuan_TMT6_13July20_11Aug20_RTS-3hr_2_Nested.xlsx")
+Jul13_Aug11_XM_GZ_Sept13 <- xm_compete_pvals("../data/Yu-Shiuan_TMT6_13July20_11Aug20_RTS-3hr_2_Nested.xlsx")
 
-Mar13_XM_DMSO_Dec9 <- xm_dmso_pvals("~/Dropbox/Stuff For Alison/20201209_Yu-Shiuan_TMT6-TMT10-LFQ Datasets/20201209_Yu-Shiuan_13Mar20_Sequest_Reviewed_ProteinAbundace_Anova(Indv_protein).xlsx")
+Mar13_XM_DMSO_Dec9 <- xm_dmso_pvals("../data/20201209_Yu-Shiuan_13Mar20_Sequest_Reviewed_ProteinAbundace_Anova(Indv_protein).xlsx")
 
-Aug20_XM_DMSO_Dec9 <- xm_dmso_pvals("~/Dropbox/Stuff For Alison/20201209_Yu-Shiuan_TMT6-TMT10-LFQ Datasets/20201209_Yu-Shiuan_TMT10_20August20_RTS-3hr_Nested.xlsx")
-Aug20_XM_GZ_Dec9 <- xm_compete_pvals("~/Dropbox/Stuff For Alison/20201209_Yu-Shiuan_TMT6-TMT10-LFQ Datasets/20201209_Yu-Shiuan_TMT10_20August20_RTS-3hr_Nested.xlsx")
+Aug20_XM_DMSO_Dec9 <- xm_dmso_pvals("../data/20201209_Yu-Shiuan_TMT10_20August20_RTS-3hr_Nested.xlsx")
+Aug20_XM_GZ_Dec9 <- xm_compete_pvals("../data/20201209_Yu-Shiuan_TMT10_20August20_RTS-3hr_Nested.xlsx")
 ```
 
 ### Plotting the Data
